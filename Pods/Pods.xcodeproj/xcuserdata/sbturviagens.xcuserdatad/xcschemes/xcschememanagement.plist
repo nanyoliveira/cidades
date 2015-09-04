@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Foursquare-API-v2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-cidades.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>21E96723E9DD4DD1331B44F22D86EA15</key>
+		<key>028C5C078D89EE93166F119139E97B2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54C4C1BF9141D9A33B153BD379750A01</key>
+		<key>12EBA2F3EBE6964C764C19BF96C20D4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C4E5140462D3BA94A446318CF1DD644</key>
+		<key>2EA691A8FF1DA580FB96390B43F607AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0128196DE9815B3E98BF69D738AB8AA</key>
+		<key>5BD5CFC1C70107DDE4624B8F79B68347</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FEE3E987E2777BA372DA23652929242B</key>
+		<key>DA26C9F668A023F39ACE182C710FB3C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB6BA67A00794F5A1CB7883F1D973632</key>
 		<dict>
 			<key>primary</key>
 			<true/>

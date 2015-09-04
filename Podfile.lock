@@ -37,12 +37,14 @@ PODS:
     - FBSDKCoreKit/arc
   - FBSDKLoginKit (4.5.1):
     - FBSDKCoreKit
+  - Foursquare-API-v2 (1.4.8)
   - GoogleMaps (1.10.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - FBSDKCoreKit
   - FBSDKLoginKit
+  - Foursquare-API-v2
   - GoogleMaps
 
 SPEC CHECKSUMS:
@@ -50,6 +52,7 @@ SPEC CHECKSUMS:
   Bolts: 7686a5cb204d1ac54cee26f12d9b7622db3f80d1
   FBSDKCoreKit: f335eaf6865e1e1597dee1debfb533045500da47
   FBSDKLoginKit: 225cc9a388a92916ee3f3bb14422017b6e44b65b
+  Foursquare-API-v2: dedba546a2048dc66dc444e9784fc5f9c27f81d9
   GoogleMaps: 5c92e599b07b0a2a9b367c5dd128edc629bddfea
 
 COCOAPODS: 0.38.2

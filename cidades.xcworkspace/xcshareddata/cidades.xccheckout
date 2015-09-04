@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC0CA13E-B8B8-4580-8F05-73D6228DC302</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cidades</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FFE1897D4744E4DB51BD4DB424E37064CE506C3C</key>
+		<string>https://github.com/nanyoliveira/cidades.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cidades.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FFE1897D4744E4DB51BD4DB424E37064CE506C3C</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nanyoliveira/cidades.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FFE1897D4744E4DB51BD4DB424E37064CE506C3C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FFE1897D4744E4DB51BD4DB424E37064CE506C3C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cidades</string>
+		</dict>
+	</array>
+</dict>
+</plist>

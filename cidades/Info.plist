@@ -23,6 +23,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string>cidades</string>
 				<string>fb1637386766543058</string>
 			</array>
 		</dict>
@@ -56,10 +57,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    
-    <key>NSLocationUsageDescription</key>
-    <string>Would you mind if I know where you are?</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Would you mind if I know where you are?</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Would you mind if I know where you are?</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Would you mind if I know where you are?</string>
 </dict>
 </plist>

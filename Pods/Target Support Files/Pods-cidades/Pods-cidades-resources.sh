@@ -58,9 +58,19 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "Foursquare-API-v2/Foursquare2/pin.png"
+  install_resource "Foursquare-API-v2/Foursquare2/pin@2x.png"
+  install_resource "Foursquare-API-v2/Foursquare2/poweredByFoursquare_gray.png"
+  install_resource "Foursquare-API-v2/Foursquare2/poweredByFoursquare_gray@2x.png"
+  install_resource "Foursquare-API-v2/Foursquare2/FSWebLogin.xib"
   install_resource "GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "Foursquare-API-v2/Foursquare2/pin.png"
+  install_resource "Foursquare-API-v2/Foursquare2/pin@2x.png"
+  install_resource "Foursquare-API-v2/Foursquare2/poweredByFoursquare_gray.png"
+  install_resource "Foursquare-API-v2/Foursquare2/poweredByFoursquare_gray@2x.png"
+  install_resource "Foursquare-API-v2/Foursquare2/FSWebLogin.xib"
   install_resource "GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"
 fi
 

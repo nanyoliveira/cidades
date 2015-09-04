@@ -10,6 +10,7 @@
 #import <GoogleMaps/GoogleMaps.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <Foursquare-API-v2/Foursquare2.h>
 
 @interface AppDelegate ()
 
@@ -18,10 +19,19 @@
 @implementation AppDelegate
 
 
+#define CLIENTE_ID @"0GBRZWD1RITVEQRUAYP5NWIBWZ13VSVBNFQXKWEM0NHKQ3TL"
+#define CLIENTE_SECRET @"RLSBKA31BH4DERQFBXD5GNJA24BJN34UMPYF2P0QOWYRJOBG"
+#define CALLBACK_URL @"https://cidades://foursquare"
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [GMSServices provideAPIKey:@"AIzaSyAcjt3mKUq8NTvr8kflj-gx79stbd-Rb0s"];
     
+    
+    [Foursquare2 setupFoursquareWithClientId:CLIENTE_ID
+                                      secret:CLIENTE_SECRET
+                                 callbackURL:CALLBACK_URL];
     // Override point for customization after application launch.
     return  [[FBSDKApplicationDelegate sharedInstance] application:application
                                      didFinishLaunchingWithOptions:launchOptions];
@@ -33,7 +43,7 @@
                                                           openURL:url
                                                 sourceApplication:sourceApplication
                                                        annotation:annotation
-            ];
+            ] || [Foursquare2 handleURL:url]   ;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
