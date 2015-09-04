@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B275043DF072E50286D96529 /* libPods-cidades.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF1CCC88490885FFF7544DE /* libPods-cidades.a */; };
 		F68875431B94BC0B00A544E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F68875421B94BC0B00A544E1 /* main.m */; };
 		F68875461B94BC0B00A544E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F68875451B94BC0B00A544E1 /* AppDelegate.m */; };
-		F68875491B94BC0B00A544E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68875481B94BC0B00A544E1 /* ViewController.m */; };
 		F688754C1B94BC0B00A544E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F688754A1B94BC0B00A544E1 /* Main.storyboard */; };
 		F688754E1B94BC0B00A544E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F688754D1B94BC0B00A544E1 /* Images.xcassets */; };
 		F68875511B94BC0B00A544E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F688754F1B94BC0B00A544E1 /* LaunchScreen.xib */; };
 		F688755D1B94BC0B00A544E1 /* cidadesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F688755C1B94BC0B00A544E1 /* cidadesTests.m */; };
+		F68875681B94BD3300A544E1 /* CitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68875671B94BD3300A544E1 /* CitiesTableViewController.m */; };
+		F688756C1B94D19B00A544E1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F688756B1B94D19B00A544E1 /* DetailViewController.m */; };
+		F68875731B94D2DB00A544E1 /* RequestJSon.m in Sources */ = {isa = PBXBuildFile; fileRef = F68875721B94D2DB00A544E1 /* RequestJSon.m */; };
+		F6DE67291B98B86F003C3816 /* miltonAniversario.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F6DE67281B98B86F003C3816 /* miltonAniversario.gpx */; };
+		F6DE672B1B98D224003C3816 /* cidades.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6DE672A1B98D224003C3816 /* cidades.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5290D6497F8458016E4639CC /* Pods-cidades.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cidades.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cidades/Pods-cidades.debug.xcconfig"; sourceTree = "<group>"; };
+		8735CA3D4DAA2D6BB8D50ED3 /* Pods-cidades.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cidades.release.xcconfig"; path = "Pods/Target Support Files/Pods-cidades/Pods-cidades.release.xcconfig"; sourceTree = "<group>"; };
+		EEF1CCC88490885FFF7544DE /* libPods-cidades.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cidades.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F688753D1B94BC0B00A544E1 /* cidades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cidades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68875411B94BC0B00A544E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F68875421B94BC0B00A544E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F68875441B94BC0B00A544E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F68875451B94BC0B00A544E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F68875471B94BC0B00A544E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F68875481B94BC0B00A544E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F688754B1B94BC0B00A544E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F688754D1B94BC0B00A544E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F68875501B94BC0B00A544E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F68875561B94BC0B00A544E1 /* cidadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cidadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F688755B1B94BC0B00A544E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F688755C1B94BC0B00A544E1 /* cidadesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cidadesTests.m; sourceTree = "<group>"; };
+		F68875661B94BD3300A544E1 /* CitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CitiesTableViewController.h; path = controller/CitiesTableViewController.h; sourceTree = "<group>"; };
+		F68875671B94BD3300A544E1 /* CitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CitiesTableViewController.m; path = controller/CitiesTableViewController.m; sourceTree = "<group>"; };
+		F688756A1B94D19B00A544E1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = controller/DetailViewController.h; sourceTree = "<group>"; };
+		F688756B1B94D19B00A544E1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = controller/DetailViewController.m; sourceTree = "<group>"; };
+		F68875711B94D2DB00A544E1 /* RequestJSon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestJSon.h; sourceTree = "<group>"; };
+		F68875721B94D2DB00A544E1 /* RequestJSon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestJSon.m; sourceTree = "<group>"; };
+		F6DE67281B98B86F003C3816 /* miltonAniversario.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = miltonAniversario.gpx; path = places/miltonAniversario.gpx; sourceTree = "<group>"; };
+		F6DE672A1B98D224003C3816 /* cidades.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cidades.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B275043DF072E50286D96529 /* libPods-cidades.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +75,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3818650AD0160AEFC2F75DF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5290D6497F8458016E4639CC /* Pods-cidades.debug.xcconfig */,
+				8735CA3D4DAA2D6BB8D50ED3 /* Pods-cidades.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B8BD4687283EB1A2C5FA931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1CCC88490885FFF7544DE /* libPods-cidades.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F68875341B94BC0B00A544E1 = {
 			isa = PBXGroup;
 			children = (
 				F688753F1B94BC0B00A544E1 /* cidades */,
 				F68875591B94BC0B00A544E1 /* cidadesTests */,
 				F688753E1B94BC0B00A544E1 /* Products */,
+				3818650AD0160AEFC2F75DF1 /* Pods */,
+				5B8BD4687283EB1A2C5FA931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +115,10 @@
 		F688753F1B94BC0B00A544E1 /* cidades */ = {
 			isa = PBXGroup;
 			children = (
+				F68875701B94D2AE00A544E1 /* HTTP */,
+				F68875691B94BD3700A544E1 /* controllers */,
 				F68875441B94BC0B00A544E1 /* AppDelegate.h */,
 				F68875451B94BC0B00A544E1 /* AppDelegate.m */,
-				F68875471B94BC0B00A544E1 /* ViewController.h */,
-				F68875481B94BC0B00A544E1 /* ViewController.m */,
 				F688754A1B94BC0B00A544E1 /* Main.storyboard */,
 				F688754D1B94BC0B00A544E1 /* Images.xcassets */,
 				F688754F1B94BC0B00A544E1 /* LaunchScreen.xib */,
@@ -96,6 +130,8 @@
 		F68875401B94BC0B00A544E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6DE672A1B98D224003C3816 /* cidades.jpg */,
+				F6DE67281B98B86F003C3816 /* miltonAniversario.gpx */,
 				F68875411B94BC0B00A544E1 /* Info.plist */,
 				F68875421B94BC0B00A544E1 /* main.m */,
 			);
@@ -119,6 +155,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F68875691B94BD3700A544E1 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F688756A1B94D19B00A544E1 /* DetailViewController.h */,
+				F688756B1B94D19B00A544E1 /* DetailViewController.m */,
+				F68875661B94BD3300A544E1 /* CitiesTableViewController.h */,
+				F68875671B94BD3300A544E1 /* CitiesTableViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		F68875701B94D2AE00A544E1 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				F68875711B94D2DB00A544E1 /* RequestJSon.h */,
+				F68875721B94D2DB00A544E1 /* RequestJSon.m */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F68875601B94BC0B00A544E1 /* Build configuration list for PBXNativeTarget "cidades" */;
 			buildPhases = (
+				C9F997D0B2E1C2DB955414CC /* Check Pods Manifest.lock */,
 				F68875391B94BC0B00A544E1 /* Sources */,
 				F688753A1B94BC0B00A544E1 /* Frameworks */,
 				F688753B1B94BC0B00A544E1 /* Resources */,
+				C6500F5DC9198C093C875135 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DE67291B98B86F003C3816 /* miltonAniversario.gpx in Resources */,
 				F688754C1B94BC0B00A544E1 /* Main.storyboard in Resources */,
 				F68875511B94BC0B00A544E1 /* LaunchScreen.xib in Resources */,
 				F688754E1B94BC0B00A544E1 /* Images.xcassets in Resources */,
+				F6DE672B1B98D224003C3816 /* cidades.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +274,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6500F5DC9198C093C875135 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cidades/Pods-cidades-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F997D0B2E1C2DB955414CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F68875391B94BC0B00A544E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68875491B94BC0B00A544E1 /* ViewController.m in Sources */,
 				F68875461B94BC0B00A544E1 /* AppDelegate.m in Sources */,
+				F68875681B94BD3300A544E1 /* CitiesTableViewController.m in Sources */,
+				F68875731B94D2DB00A544E1 /* RequestJSon.m in Sources */,
 				F68875431B94BC0B00A544E1 /* main.m in Sources */,
+				F688756C1B94D19B00A544E1 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +442,7 @@
 		};
 		F68875611B94BC0B00A544E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5290D6497F8458016E4639CC /* Pods-cidades.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cidades/Info.plist;
@@ -357,6 +453,7 @@
 		};
 		F68875621B94BC0B00A544E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8735CA3D4DAA2D6BB8D50ED3 /* Pods-cidades.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cidades/Info.plist;
@@ -418,6 +515,7 @@
 				F68875621B94BC0B00A544E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F68875631B94BC0B00A544E1 /* Build configuration list for PBXNativeTarget "cidadesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +524,7 @@
 				F68875651B94BC0B00A544E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
