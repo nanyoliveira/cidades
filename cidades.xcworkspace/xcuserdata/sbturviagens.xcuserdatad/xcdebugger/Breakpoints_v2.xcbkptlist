@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "cidades/controller/CitiesTableViewController.m"
-            timestampString = "463091281.090424"
+            timestampString = "463427593.936476"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "-findUserLikes:"
             landmarkType = "5">
          </BreakpointContent>

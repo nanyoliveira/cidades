@@ -47,7 +47,11 @@
 
 -(void)setFoursquareFor: (NSString *) queryLiked
 {
+    NSLog(@"query: %@", queryLiked);
+    NSLog(@"verificando com foursquare");
     [ Foursquare2 venueSearchNearByLatitude:@(self.currentLocation.coordinate.latitude) longitude:@(self.currentLocation.coordinate.longitude) query:queryLiked limit:nil intent:intentBrowse radius:@(10000) categoryId:nil callback:^(BOOL success, id result) {
+        
+        NSLog([NSString stringWithFormat:@"success? %hhd", success] );
         if(success)
         {
             if(result[@"response"])
@@ -56,6 +60,10 @@
                }
             
            
+        }
+        else
+        {
+            NSLog(@" result :: %@", result);
         }
     }];
     
@@ -67,17 +75,20 @@
     GMSCameraPosition * cameraPositionOfLikes = [GMSCameraPosition cameraWithLatitude:self.currentLocation.coordinate.latitude longitude:self.currentLocation.coordinate.longitude zoom:13];
     [self.mapView animateToCameraPosition:cameraPositionOfLikes];
     
-    
-    GMSMarker * likeMarker = [[GMSMarker alloc] init];
-    
-    double lat = [places[0][@"location"][@"lat"] doubleValue] ;
-    double lon = [places[0][@"location"][@"lng"] doubleValue];
-    likeMarker.position = CLLocationCoordinate2DMake(lat, lon) ;
-    likeMarker.title =  places[0][@"name"];
-    likeMarker.snippet = places[0][@"location"][@"address"];
-    likeMarker.icon = [UIImage imageNamed:@"likePin"];
-    likeMarker.map = self.mapView;
+    if([places count]> 0)
+    {
+        GMSMarker * likeMarker = [[GMSMarker alloc] init];
+        
+        double lat = [places[0][@"location"][@"lat"] doubleValue] ;
+        double lon = [places[0][@"location"][@"lng"] doubleValue];
+        likeMarker.position = CLLocationCoordinate2DMake(lat, lon) ;
+        likeMarker.title =  places[0][@"name"];
+        likeMarker.snippet = places[0][@"location"][@"address"];
+        likeMarker.icon = [UIImage imageNamed:@"likePin"];
+        likeMarker.map = self.mapView;
 
+    }
+    
 }
 
 
